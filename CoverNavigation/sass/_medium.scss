@@ -1,0 +1,73 @@
+// main: styles.scss
+/* NAVigation  */
+nav {
+	position: relative;
+	button {
+		display: none;
+	}// end button
+	ul {
+		margin-left: 2%;
+		li {
+			float: left;
+			&:hover {
+				.subMenu {
+					left: auto;
+				}// end hover for subMenu ul
+			}// end li hover
+			a {
+				border: none;
+				border-right: 1px solid rgba(0,0,0,0.2);
+				padding: .7rem .9rem;
+				transition: background 0.3s linear;
+				-webkit-transition: background 0.3s linear;
+				&:hover {
+					background-color: darken($menuColor, 10%);
+				}
+				span {
+					display: none;
+				}
+			}// end anchor
+		}// end li
+		ul.subMenu {
+			left: -999em;
+			z-index: 99;
+			background-color: lighten($menuColor, 10%);
+			position: absolute;
+			width: 10rem;
+			li.subMenuLinks {
+				float: none;
+				border-bottom: 1px solid rgba(0,0,0,0.2);
+			}// end subMenuLinks
+		}// end ul.subMenu
+	}// end ul
+	ul.closed {
+		display: block;
+	}// end ul.closed
+}// end nav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER  */
+header {margin-top: 0;}
+
+/* MAIN  */
+main {
+	h1 {font-size: 5rem;}
+	.box {font-size: 2rem;}
+	.box span {font-size: 1.5rem;}
+} // end main
