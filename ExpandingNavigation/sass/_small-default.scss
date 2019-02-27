@@ -47,6 +47,7 @@ nav {
 	}// end ul
 	ul.closed {
 		max-height: 0;
+		transition: max-height 0.5s;
 	}
 	ul.open {
 		max-height: 31rem;
