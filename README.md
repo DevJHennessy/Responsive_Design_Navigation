@@ -1,4 +1,4 @@
-<h1>Responsive Mobile-first Web Design Navigation</h1>
+<h1>Responsive Web Design: Mobile-first Navigation</h1>
 
 <p>In this repository there are several examples of responsive, mobile-first website navigation menues. These are from the PluralSight Course: <a href="https://www.pluralsight.com/courses/responsive-web-design-navigation">Hands-on Responsive Web Design 4: Navigation</a>. For each page, you can play around with expanding and shrinking the screen size to watch the responsiveness between small, medium, and large screen sizes.</p>
 
