@@ -2,7 +2,7 @@
 
 <p>In this repository there are several examples of responsive, mobile-first website navigation menues. These are from the PluralSight Course: <a href="https://www.pluralsight.com/courses/responsive-web-design-navigation">Hands-on Responsive Web Design 4: Navigation</a>. For each page, you can play around with expanding and shrinking the screen size to watch the responsiveness between small, medium, and large screen sizes.</p>
 
-<p><strong>Note:</strong> The best way to view these examples is to either clone the repository or download the files and open the files on your local machine.</p>
+<p><strong>Note:</strong> The best way to view these examples is to either clone the repository or download the files and open the files on your local machine. The GitHub Previewer is not fully functioning and you may come across a few errors.</p>
 
 <p>1) This first <a href="https://htmlpreview.github.io/?https://github.com/DevJHennessy/Responsive_Design_Navigation/blob/master/CoverNavigation/index.html">example</a> demonstrates Cover Navigation by simply dropping all of the menu links to cover the page. When viewed on medium screens, the hidden navigation is replaced with a navigation bar across the screen.</p>
 
